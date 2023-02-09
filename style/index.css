@@ -1,1 +1,100 @@
-/* CSS stillerinizi buraya girin */
+*{
+  margin: 0;
+  padding: 0;;
+}
+
+header {
+  background: rgb(232, 176, 135);
+  
+  color: rgb(23, 23, 56);
+  height: 180px;
+}
+
+h1{
+  font-size: 30px;
+  display: block;
+  margin-bottom: 30px;
+  padding: 20px 30px;
+  
+}
+nav a {
+  
+  margin: 0.5px 30px;
+  padding: 2px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  background: rgb(239, 198, 169);
+  color: rgb(23, 23, 56);
+
+}
+
+.main{
+  display: flex;
+  background: rgb(23, 23, 56);
+  color: rgb(239, 198, 169);
+  justify-content: flex-start;
+  padding-left: 85px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.main-text {
+  flex-direction: column;
+  text-align: center;
+  padding: 5% 5%;
+  margin: 2% 10%;
+  
+}
+
+.main a{
+  margin: 2px;
+  padding: 2px;
+  text-decoration: none;
+  background: rgb(239, 198, 169);
+  color:rgb(23, 23, 56);
+}
+
+.container-galeri {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1%;
+  justify-content: space-around;
+  background: rgb(23, 23, 56);
+  color: rgb(239, 198, 169);
+  
+}
+
+
+.galeri {
+ 
+  display: inline-block;
+    flex-grow: 1;
+    height: 90%;
+    width: calc(100% * (1/4) - 10px - 1px);
+    text-align: center;
+}
+
+.galeri h3{
+  font-size: 15px;
+  align-items: flex-start;
+}
+
+footer{
+  background: rgb(232, 176, 135);
+  color: rgb(23, 23, 56);
+  text-align: center;
+  padding: 20px;
+  
+}
+footer h4{
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  background: rgb(239, 198, 169);
+  color: rgb(23, 23, 56);
+  margin: 2px;
+  padding: 2px;
+}
